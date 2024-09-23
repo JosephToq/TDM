@@ -1,0 +1,204 @@
+.saira-condensed-regular {
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.saira-condensed-semibold {
+    font-family: "Saira Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.rubik-regular {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .rubik-medium {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+  h1{
+    margin: 0;
+    padding: 0;
+  }
+  h3{
+    margin: 0;
+    padding: 0;
+  }
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-image: url(assets/fondo1.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 98vh;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+#texto1{
+    flex: 1;
+    line-height: 1.2;
+    display: block;
+    
+}
+
+.optica{
+    font-size: 36px;
+    color: #FFE100;
+    max-width: 80%;
+}
+
+.titulo{
+    font-size: 96px;
+    color: #E8ECF3;
+    max-width: 80%;
+}
+
+.azul{
+    font-size: 36px;
+    color:#1b5f61;
+    max-width: 80%;
+}
+
+#texto2{
+    flex: 1;
+    line-height: 1.2;
+    display: none;
+}
+.experiencia{
+    font-size: 36px;
+    color: #FFE100;
+    max-width: 100%;
+}
+
+.grupo{
+    font-size: 96px;
+    color: #E8ECF3;
+    max-width: 100%;
+}
+
+.nombres{
+    font-size: 36px;
+    color:#1b5f61;
+    max-width: 100%;
+}
+
+.camara{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.camara img{
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.nucleos{
+    position: relative;
+}
+
+.nucleos img{
+    position: absolute;
+    top: -140px;          
+    right: 490px;        
+    width: 568px;       
+    height: auto;
+}
+
+.imgn1{
+    display: active;
+}
+.imgn2{
+    display: none;
+}
+.imgn3{
+    display: none;
+}
+
+.nucleos button{
+    position: absolute;
+    background:transparent;
+    width: 30px;
+    height: 40px;
+}
+
+#btnintegrantes{
+    top: 220px;
+    right: 302px;
+    height: 65px;
+    width: 65px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px rgba(251, 255, 0, 1);
+}
+
+#btninfo{
+    top: -141px;
+    right: 302px;
+    height: 65px;
+    width: 65px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px rgba(251, 255, 0, 1);
+}
+
+.tooltip{
+    visibility: hidden;
+    background-image: url(assets/fondo3.png);
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%; /* Posición del tooltip arriba del botón */
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    white-space: nowrap;
+    font-size: 20px;
+}
+
+/* Tooltip visible */
+.tooltip-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+#flechader{
+    right: 133px;
+    top: 55px;
+    box-shadow: 0px 0px 20px rgba(251, 255, 0, 1);
+}
+#flechaizq{
+    
+    right: 301px;
+    top: 55px;
+    box-shadow: 0px 0px 20px rgba(251, 255, 0, 1);
+}
+
+
+
+
+
+
