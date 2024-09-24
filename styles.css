@@ -197,6 +197,15 @@ body{
     box-shadow: 0px 0px 20px rgba(251, 255, 0, 1);
 }
 
+#btnok{
+    top: 34px;
+    right: 190px;
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px rgba(251, 255, 0, 1);
+}
+
 * {
     cursor: url(assets/crosshair.png) 16 16, pointer;
 }

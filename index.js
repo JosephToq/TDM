@@ -1,5 +1,6 @@
 //array para las imagenes
 let imagenes = ["assets/imagen1.png", "assets/imagen2.png", "assets/imagen3.png"];
+let paginas =["superresolucion.html", "superresolucion.html", "superresolucion.html"];
 let indiceActual = 0;
 
 function cambiarImagender() {
@@ -15,6 +16,10 @@ function cambiarImagender() {
     }
     // Cambiar la imagen
         imagen.src = imagenes[indiceActual];
+}
+
+function redirigir(){
+    window.location.href = paginas[indiceActual];
 }
 
 // Función para retroceder a la imagen anterior
@@ -60,4 +65,3 @@ function mostrarTooltip() {
         tooltip.classList.add("tooltip-visible");
     }
 }
-
