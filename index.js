@@ -65,3 +65,11 @@ function mostrarTooltip() {
         tooltip.classList.add("tooltip-visible");
     }
 }
+
+//saltar al nucleo
+function redirigirDespuesDeTiempo() {
+    // Redirige a otra página después de 5 segundos (5000 ms)
+    setTimeout(function() {
+        window.location.href = "superresolucion1.html"; // Cambia "otra_pagina.html" por la URL o página deseada
+    }, 5000); // Tiempo en milisegundos (5 segundos en este caso)
+}
