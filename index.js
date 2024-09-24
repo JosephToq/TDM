@@ -60,3 +60,4 @@ function mostrarTooltip() {
         tooltip.classList.add("tooltip-visible");
     }
 }
+
